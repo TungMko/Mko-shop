@@ -615,6 +615,9 @@ nav ul li a:hover::after {
 }
 /* end Css about */
 /* start CSS shop */
+.pro-container .product-shop {
+    width: 19%;
+}
 .product .top-img-shop {
     margin-bottom: 30px;
 }
@@ -660,4 +663,80 @@ nav ul li a:hover::after {
 .selection ul li:first-child:hover {
     border: none;
 }
+    /* star next page */
+.next-page {
+    text-align: center;
+    margin: 40px 0;
+}
+.next-page a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #088176;
+    padding: 15px 20px;
+    border-radius: 4px;
+    font-weight: 600;
+}
+
+.next-page a i{
+    font-size: 16px;
+    font-weight: 600;
+}
+    /* end next page */
 /* end CSS shop */
+/* start product */
+.head-product {
+    margin-top: -100px;
+}
+#prodetails {
+    width: 100%;
+    padding: 0 10%;
+    margin-top: 100px;
+    display: flex;
+}
+#prodetails .prodetails-left{
+    width: 40%;
+}
+.secondary-img{
+    display: flex;
+    justify-content: space-between;
+}
+.small-img-col {
+    width: 24%;
+    cursor: pointer;
+}
+.small-img-col img{
+    width: 100%;
+}
+.prodetails-right {
+    margin-left: 30px;
+    width: 60%;
+}
+.prodetails-right h4{
+    margin: 30px 0;
+    font-weight: 900;
+}
+.prodetails-right h2 {
+    font-size: 30px;
+}
+.prodetails-right select{
+    display: block;
+    padding: 5px 5px;
+    margin-bottom: 16px;
+    border-radius: 5px;
+}
+.prodetails-right input{
+    width: 50px;
+    border-radius: 5px;
+    height: 35px;
+    padding-left: 10px;
+}
+.prodetails-right button{
+    padding: 10px 30px;
+    background-color: #088176;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+
+}
+/* end product */
