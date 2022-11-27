@@ -609,9 +609,17 @@ nav ul li a:hover::after {
 }
 /* End media query */
 
+/* start Css about */
+.about-head {
+    margin-top: -38px;       
+}
+/* end Css about */
 /* start CSS shop */
 .product .top-img-shop {
     margin-bottom: 30px;
+}
+.head-shop {
+    margin-top: -38px;
 }
 .pro .cart i {
     padding-top: 10px;
